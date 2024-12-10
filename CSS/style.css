@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  background-color: black;
+}
+
+.table>:not(caption)>*>* {
+  padding: 1rem 1rem !important;
+  color: #FFC107 !important;
+  background-color: transparent !important;
+  /* border: none !important;
+  border-bottom-width: none !important; */
+  border: 1px solid rgb(224, 220, 220) !important;
+  border-bottom-width: var(--bs-border-width);
+  box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+}
+
+.list-group-item:hover {
+  background-color: #ffc107;
+  color: #000;
+  cursor: pointer;
+}
